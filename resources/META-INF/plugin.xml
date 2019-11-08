@@ -2,14 +2,19 @@
   <id>cn.baililuohui.shortcut_transform</id>
   <name>ShortcutTransform</name>
   <version>1.0</version>
-  <vendor email="hk_rjc@163.com" url="redtech.github.io">百里落辉</vendor>
+  <vendor email="hk_rjc@163.com" url="jaredtech.github.io">百里落辉</vendor>
 
   <description>
     Emmmmmmm 挺无聊的, 换了Mac之后快捷键不一样了，记不住了，做个插件查询一下吧
   </description>
 
   <change-notes>
-    最开始尝试，还没有任何的代码，就随便写点什么吧，这玩意真吉儿麻烦，还非得40个字才消停
+    ------------------
+    v0.0.1
+    实现快捷键文件选择
+    实现快捷键输入
+    实现快捷键查找
+    ------------------
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
