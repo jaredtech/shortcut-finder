@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>cn.baililuohui.shortcut_transform</id>
+  <name>ShortcutTransform</name>
+  <version>1.0</version>
+  <vendor email="hk_rjc@163.com" url="redtech.github.io">百里落辉</vendor>
+
+  <description>
+    Emmmmmmm 挺无聊的, 换了Mac之后快捷键不一样了，记不住了，做个插件查询一下吧
+  </description>
+
+  <change-notes>
+    最开始尝试，还没有任何的代码，就随便写点什么吧，这玩意真吉儿麻烦，还非得40个字才消停
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="ShowDialog.ShowPlatformDialog" class="cn.baililuohui.shortcut_transform.ShowPlatformAction"
+            text="Shortcut" description="显示一个对话框选择当前平台的快捷键">
+      <add-to-group group-id="HelpMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt M"/>
+    </action>
+  </actions>
+
+</idea-plugin>
